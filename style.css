@@ -23,12 +23,15 @@
     row-gap: 20px;
     background: rgb(34,193,195);
 background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,206,1) 100%);
+padding: 20px;
     
 }
 .card img {
-    width: 190px; /* Intrinsic size */
-    height: 190px; /* Intrinsic size */
-    object-fit: contain;
+    width: 260px;  /* Rendered size */
+    height: 260px; /* Rendered size */
+    border-radius: 30%; /* Circular image with border-radius */
+    margin: 10px 0;  /* Vertical margin for spacing */
+    object-fit: cover; /* Ensures the image fits within the set dimensions without distortion */
 }
 h1{
     font-size: large;
