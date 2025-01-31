@@ -26,10 +26,9 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,206,1) 100%
     
 }
 .card img {
-    border-radius: 200px;
-    width: 160px; /* Adjust width to fit inside the card */
-    height: 160px; /* Adjust height to maintain aspect ratio */
-    margin: 20px;
+    width: 190px; /* Intrinsic size */
+    height: 190px; /* Intrinsic size */
+    object-fit: contain;
 }
 h1{
     font-size: large;
